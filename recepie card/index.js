@@ -1,11 +1,11 @@
-var recepie = {
-    'title':'Omelette',
-    'servings':2,
-    'ingredients':['4eggs','2strips of bacon','1 tsp salt/pepper']
+var  recipe ={
+    'title': 'Meal name',
+    'servings': 2,
+    'ingredients':['4 eggs','2 strips of bacon','1 tsp salt/pepper']
 };
-console.log(recepie.title);
-console.log('servings:'+ recepie.servings);
-console.log('ingredients:');
-for (var i = 0;i<ingredients.length;i++){
-    console.log(recepie.ingredients);
+console.log(recipe.title);
+console.log('Servings: ' + recipe.servings);
+console.log('Ingredients:');
+for (var i = 0; i < recipe.ingredients.length; i++) {
+    console.log(recipe.ingredients[i]);
 }
