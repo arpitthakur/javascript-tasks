@@ -25,7 +25,7 @@ function kelvinToCelciusAndFahrenheit(){
 }
 function main(){
 celciusInput.addEventListener('input',celciusToFahrenheitAndKelvin);
-fahrenheitInput.addEventListener('input',celciusToFahrenheitAndKelvin);
+fahrenheitInput.addEventListener('input',fahrenheitToCelciusAndKelvin);
 kelvinInput.addEventListener('input',kelvinToCelciusAndFahrenheit);
 }
 main ();

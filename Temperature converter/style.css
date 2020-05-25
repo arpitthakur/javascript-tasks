@@ -11,7 +11,7 @@ div{
     height:33.33vh;
 }
 #fahrenheit {
-    border-top: 4px  solid white;
+    border-top: 4px  solid rgb(212, 173, 173);
     border-bottom: 4px solid white;
 }
 input[type=number]{
