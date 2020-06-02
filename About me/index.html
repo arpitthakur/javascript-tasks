@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+    <meta charset="utf-8"/>
+    <title>About Me</title>
+    <style>
+      .list-item {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <ul>
+      <li>Nickname: <span id="nickname"></span>
+      <li>Favorites:  <span id="favorites"></span>
+      <li>Hometown: <span id="hometown"></span>
+     </ul>
+
+    <script>
+     document.body.style.fontFamily = 'Arial, sans-serif';
+     document.getElementById('nickname').textContent = 'Arpu';
+     document.getElementById('favorites').textContent = 'playing games, music, sleeping';
+     document.getElementById('hometown').textContent = 'Sarkaghat';
+     var items = document.getElementsByTagName('li');
+     for (var i = 0; i < items.length; i++) {
+        items[i].className = 'list-item';
+     }
+
+      var myPic = document.createElement('img');
+      myPic.src = 'https://www.dropbox.com/s/d89jude1fwbnudy/_DSC1479.JPG?raw=1';
+      document.body.appendChild(myPic);
+    </script>
+  </body>
+  </html>
