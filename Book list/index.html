@@ -34,8 +34,14 @@ var books = [
    img: 'http://ecx.images-amazon.com/images/I/41Z56GwEv9L._AA115_.jpg',
    author: 'Brian Christian',
    alreadyRead: true
+  },
+  {title: 'abc',
+   img: 'http://ecx.images-amazon.com/images/I/41Z56GwEv9L._AA115_.jpg',
+   author: 'Brian Christian',
+   alreadyRead: false
   }];
-
+  
+  
 var bookList = document.createElement('ul');
 for (var i = 0; i < books.length; i++) {
   var bookItem = document.createElement('li');
