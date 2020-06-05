@@ -1,15 +1,6 @@
 Start with this webpage, which has a single img tag of an animated GIF of a cat walking.
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Cat Walk</title>
-  </head>
-  <body>
-    <img style="position:absolute;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif" />
-  </body>
-</html>
+
 Create a variable to store a reference to the img.
 Change the style of the img to have a "left" of "0px", so that it starts at the left hand of the screens.
 Create a function called catWalk() that moves the cat 10 pixels to the right of where it started, by changing the "left" style property.
