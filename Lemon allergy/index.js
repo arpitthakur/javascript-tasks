@@ -1,10 +1,10 @@
-function takeOutLemons(basket){
-    const fruitBasket = ['Apple', 'Lemon', 'Grapefruit', 'Lemon', 'Banana', 'Watermelon', 'Lemon'];
-
-    const result = fruitBasket.filter(fruitBasket => fruitBasket.length > 6);
-
-}
-
+const fruitBasket = ['Apple', 'Lemon', 'Grapefruit', 'Lemon', 'Banana', 'Watermelon','Lemon' ];
+    
+     const antiLemon = fruitBasket.filter(fruits => {
+  return !fruits.includes('Lemon')
+})
 
 
-console.log(takeOutLemons(fruitBasket));
+console.log(antiLemon)
+
+
