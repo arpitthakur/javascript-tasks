@@ -7,4 +7,4 @@ However, she forgot that you are allergic to lemons! Let's quickly dispose of th
 
 Write a function
 Use the filter array function to take out the lemons
-Output a string that says: "My mom bought me a fruit basket, containing [array of fruits] !"
+Output a string that says: "My mom bought me a fruit basket, containing [array of fruits] 
